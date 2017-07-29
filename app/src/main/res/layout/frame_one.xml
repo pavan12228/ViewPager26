@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_one_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello1"
+        android:textSize="70dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fragment_one_bt_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select number" />
+        <ListView
+            android:id="@+id/frame_one_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+   </LinearLayout>
+
+</LinearLayout>
